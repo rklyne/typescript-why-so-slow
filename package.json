@@ -1,0 +1,24 @@
+{
+  "name": "tiny-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^26.6.3",
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.18",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC"
+}
